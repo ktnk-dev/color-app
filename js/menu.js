@@ -74,11 +74,9 @@ function render(){
 
 function load_cookies(){
     if (document.cookie == ''){
-        document.cookie = 'expires=Fri, 31 Dec 9999 23:59:59 GMT;'
-        document.cookie = 'latest=null;'
-        document.cookie = 'fav=null;'
-        document.cookie = 'lang=en;'
-
+        document.cookie = 'latest=null; expires=Mon, 1 Jan 2035 12:00:00 UTC;'
+        document.cookie = 'fav=null; expires=Mon, 1 Jan 2035 12:00:00 UTC;'
+        document.cookie = 'lang=en; expires=Mon, 1 Jan 2035 12:00:00 UTC;'
     } 
     cookies = document.cookie.split('; ')
     data = {}
@@ -93,7 +91,7 @@ function save_cookies(data){
     for (let i = 0; i < Object.keys(data).length; i++) {
         const key = Object.keys(data)[i];
         const value = data[key]
-        document.cookie = `${key}=${value};`
+        document.cookie = `${key}=${value}; expires=Mon, 1 Jan 2035 12:00:00 UTC`
         
     }
 }
