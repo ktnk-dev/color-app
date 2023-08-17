@@ -17,8 +17,7 @@
     <li>Русский</li>
     <li>Чешский (перевод от <a href="https://github.com/realdivided">@realdivided</a>)</li>
     <li>Латышский (перевод от <a href="https://github.com/realdivided">@realdivided</a>)</li>
-    <li>Латышский (перевод от <a href="https://github.com/realdivided">@realdivided</a>)</li>
-    <li>Латышский (перевод от <a href="https://github.com/Andrew-Zex">@Andrew-Zex</a>)</li>
+    <li>Украинский (перевод от <a href="https://github.com/Andrew-Zex">@Andrew-Zex</a>)</li>
   </ul>
 </details>
 
