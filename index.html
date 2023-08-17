@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color App</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>    
+<script src="js/locals.js"></script>
+<script src="js/colors.js"></script>
+<script src="js/menu.js"></script>
+<script>
+    if (window.location.search.indexOf('?embed=') == -1) {
+        render()
+    } else {
+        hsl = window.location.search.split('=')[1].split('-')
+        rgb = hslToRgb(hsl[0], hsl[1], hsl[2])
+        console.log('Embed URL:', hsl, rgb);
+        document.body.style.backgroundColor = `rgb(${rgb[0]},${rgb[1]},${rgb[2]})`
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body {
+    color: #fff;
+    margin: 0;
+
+    background-color: #151515;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+
+
+
+} h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+
+
+button {
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+
+    padding: 7px 14px 8px;
+    
+    border: 0;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all .2s;
+} #menu_button {
+    background: rgba(0,0,0,0.4);
+    padding: 6px 14px 6px;
+} button:hover {
+    background: rgba(255,255,255,0.4);
+} #menu_button:hover {
+    background: rgba(0,0,0,0.2);
+
+}
+.btn_list {
+    margin-top: 10px;
+}
+.btn_list > button {
+    margin-bottom: 5px;
+    /* margin-right: 5px; */
+}
+
+header > button {
+    margin-right: 5px;
+}
+
+#head {
+    height: 30px;
+    margin: 20px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.pack {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#menu {
+    color: #fff;
+    background: rgba(0,0,0,0.4);
+    padding: 1px 20px 20px;
+    margin: 0 20px 20px;
+    min-height: 10%;
+    max-height: 100%;
+    border-radius: 15px;
+
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    max-width: 1200px;
+
+    transition: all .4s;
+    
+} #color_pick {
+    /* background-color: #333; */
+    display: flex;
+    flex-direction: column;
+
+} .pack > h1 {
+    padding: 15px 0 0;
+} .pack > h3 {
+    padding-top: 10px;
+}
+
+input {
+    width: 100%;
+}
+
+
+#colors {
+    margin-left: 30px;
+} #colors_list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.color {
+    height: 35px;
+    width: 35px;
+    /* aspect-ratio: 1/1; */
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+} #langs_list {
+    padding-bottom: 10px;
+}
+
+
+@media (max-width: 600px) {
+    #menu {
+        flex-direction: column-reverse;
+    } #colors {
+        margin-left: 0px;
+    } .pack {
+        width: 100%;
+    } #langs_list {
+        padding-bottom: 0;
+    }
+
+}
+
