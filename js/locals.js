@@ -74,6 +74,25 @@ langs = {
     
         menu: 'Menu',
         close_menu: 'Aizvērt izvēlni'
+    },
+    ua: {
+        NAME: 'Україньска',
+    
+        title_color_generator: 'Генератор кольору',
+        title_favourite_colors: 'Улюблені кольори',
+        title_options: 'Опція',
+        title_langs: 'Мови',
+    
+        hue: 'Колір',
+        saturatioun: 'Насичення',
+        light: 'Світ',
+    
+        button_add_to_favourite: 'Додати в обране',
+        button_remove_from_favourite: 'Видалити з обраного',
+        button_copy_embed_url: 'Скопіюйте URL-адресу для ембеда',
+    
+        menu: 'Меню',
+        close_menu: 'Закрити меню'
     }
 }
 
@@ -89,3 +108,5 @@ function change_lang(lang_code){
     save_cookies(cookies)
     render()
 }
+
+
