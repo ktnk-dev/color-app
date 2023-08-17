@@ -57,8 +57,6 @@ function render(){
     <div id="colors" class="pack">
         <h1>${text("title_favourite_colors")}</h1>
         <div id="colors_list">
-            <div class="color" style="background-color: #888;"></div>
-            <div class="color" style="background-color: #888;"></div>
         </div>
     </div>
 </section>    
