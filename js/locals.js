@@ -75,6 +75,25 @@ langs = {
         menu: 'Menu',
         close_menu: 'Aizvērt izvēlni'
     },
+    esp: {
+        NAME: 'Español',
+    
+        title_color_generator: 'Generador de color',
+        title_favourite_colors: 'Colores favoritos',
+        title_options: 'Opciones',
+        title_langs: 'Idiomas',
+    
+        hue: 'Color',
+        saturatioun: 'Saturación',
+        light: 'Luz',
+    
+        button_add_to_favourite: 'Añadir a favoritos',
+        button_remove_from_favourite: 'Quitar de favoritos',
+        button_copy_embed_url: 'Copiar URL para insertar',
+    
+        menu: 'Menú',
+        close_menu: 'Cerrar menú'
+    },
     ua: {
         NAME: 'Україньска',
     
